@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="#F7E98E"
+    android:orientation="vertical"
+    tools:context="com.example.android.threegoldenrulesfinalproject.FiveThingsToKnowActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:textSize="31sp"
+        android:typeface="serif"
+        android:textColor="#2F4F4F"
+        android:background="#F7E98E"
+        android:textAllCaps="true"
+        android:text="The Golden Rules in Real Estate" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:text="The 5 Rights You Need To Know" />
+
+    <Button
+        android:id="@+id/thebundleofrights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="#BDB76B"
+        android:textAllCaps="true"
+        android:text="The Bundle of Rights" />
+
+    <Button
+        android:id="@+id/therightlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="#BDB76B"
+        android:textAllCaps="true"
+        android:text="The Right Location" />
+
+    <Button
+        android:id="@+id/therightmortgage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="#BDB76B"
+        android:textAllCaps="true"
+        android:text="The Right Mortgage" />
+
+    <Button
+        android:id="@+id/therightprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="#BDB76B"
+        android:textAllCaps="true"
+        android:text="The Right Price" />
+
+    <Button
+        android:id="@+id/therightagent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:textColor="#000000"
+        android:background="#BDB76B"
+        android:textAllCaps="true"
+        android:text="The Right Agent" />
+
+</LinearLayout>
+
